@@ -1,0 +1,31 @@
+Jane Lockshin
+CSCI 442: Operating Systems
+Project 0
+Jan 30, 2019
+Colorado School of Mines
+
+g++ --version:
+g++ (Ubuntu 5.4.0-6ubuntu1~16.04.10) 5.4.0 20160609
+
+The folder 'Project0' contains the following files:
+- mysh.cpp
+- Makefile
+- README (this)
+
+To run the code:
+- Navigate to the directory where 'Project0' is located
+- In the terminal, type 'make'
+- Then, type either
+      './mysh' to run the interactive shell, or
+      './mysh inputTestFile' to run the shell in batch mode
+
+About the program:
+- 'mysh.cpp' launches a command line interpreter (shell), and is able to perform three built-in functions:
+  - cd
+  - pwd
+  - exit
+
+- The program also is able to process commands in batches, using batch mode.
+
+Please refer to the comments in the code for further documentation.
+If you have any questions, please contact jlockshin@mines.edu.
